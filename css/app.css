@@ -51,6 +51,11 @@ ul {
         margin:0;
         display:block;
 }
+ul li:hover{
+
+    background-color: #fff;
+}
+
         li {
             display: block;
           border-bottom:1px solid white; 
@@ -60,9 +65,10 @@ ul {
                 color: black;
                 text-decoration: none;
             }
-        }
-    }
-}
+        
+}}}
+
+
 
 section {
   font-size: 40px;
