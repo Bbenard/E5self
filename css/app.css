@@ -1,13 +1,84 @@
 body{
-    background-color:;
+    background-color:gray;
     padding: 0;
+    font-size: 15px;
 }
     .fullWidth {
-   width: 100%;
-   margin-left: auto;
-   margin-right: auto;
-   max-width: initial;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+max-width: initial;
 color:aqua;
+margin-bottom:1000px;
+position:fixed;
+height: 500px;
+}
+.bac{
+    background-color:#A7A6A8;
+    height: 100px;
+    margin-top: 10px;
+}
+.text{
+  color:#6CBEE7;  
+}
+
+.container{
+    background-color:white;
 }
 
 
+
+/* hey*/
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+body {
+  background: #1edecb;
+  color: #fff;
+  font-family: sans-serif;
+  text-shadow: 4px 4px 2px rgba(15, 100, 91, .5);
+  padding:0;
+   text-align:center;
+
+}
+
+nav.main {
+    position: fixed;
+    
+   
+}
+ul {
+        padding:0;
+        list-style:none;
+        margin:0;
+        display:block;
+}
+        li {
+            display: block;
+            margin-right:0px;
+}
+            a {
+                font-size: 23px;
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+section {
+  font-size: 40px;
+  margin-top:12000px;
+  height: 1200px;
+  border-bottom: 10px solid #fff;
+}
+
+
+<a href="#1">  </a>
+                    <a href="#2">  </a>
+                    <a href="#3">  </a>
+                    <a href="#4"> </a>
+                    <a href="#5">  </a>
+                    <a href="#6"> <img src="images/heading_bs6.png"> </a>
+                    <a href="#7"> <img src="images/heading_bs6.png"> </a>
+                    <a href="#7"> <img src="images/heading_bs7.png"> </a>
