@@ -11,12 +11,13 @@ max-width: initial;
 color:aqua;
 margin-bottom:1000px;
 position:fixed;
-height: 500px;
+height:auto;
 }
 .bac{
     background-color:#A7A6A8;
-    height: 100px;
+    height: 200px;
     margin-top: 10px;
+    width: 30%;
 }
 .text{
   color:#6CBEE7;  
@@ -24,6 +25,7 @@ height: 500px;
 
 .container{
     background-color:white;
+    height: 2000px
 }
 
 
@@ -34,17 +36,18 @@ height: 500px;
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 body {
   background: #1edecb;
-  color: #fff;
+  color:black;
   font-family: sans-serif;
   text-shadow: 4px 4px 2px rgba(15, 100, 91, .5);
   padding:0;
-   text-align:center;
+text-align:center;
 
 }
 
 nav.main {
     position: fixed;
-    
+    font-size: 20px;
+    height: 1000px;
    
 }
 ul {
@@ -55,10 +58,10 @@ ul {
 }
         li {
             display: block;
-            margin-right:0px;
+          border-bottom:1px solid white; 
 }
             a {
-                font-size: 23px;
+                font-size: 10px;
                 color: black;
                 text-decoration: none;
             }
@@ -68,17 +71,12 @@ ul {
 
 section {
   font-size: 40px;
-  margin-top:12000px;
-  height: 1200px;
+  height: 250px;
   border-bottom: 10px solid #fff;
+margin-bottom:20000px;
 }
 
-
-<a href="#1">  </a>
-                    <a href="#2">  </a>
-                    <a href="#3">  </a>
-                    <a href="#4"> </a>
-                    <a href="#5">  </a>
-                    <a href="#6"> <img src="images/heading_bs6.png"> </a>
-                    <a href="#7"> <img src="images/heading_bs6.png"> </a>
-                    <a href="#7"> <img src="images/heading_bs7.png"> </a>
+.img{
+  height: 30px; 
+    font-size: 60px;
+}
